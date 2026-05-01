@@ -1,0 +1,31 @@
+site_name: Notes
+site_description: Personal engineering notes
+site_url: ""
+
+theme:
+  name: mkdocs
+
+docs_dir: .
+
+nav:
+  - Home: README.md
+  - Topics:
+      - Index: topics/README.md
+      - Linux: topics/linux/README.md
+      - Robotics: topics/robotics/README.md
+      - RL: topics/rl/README.md
+      - Tools: topics/tools/README.md
+  - Algorithm:
+      - Index: algorithm/README.md
+      - Array: algorithm/array/README.md
+      - 1数组理论基础: algorithm/array/1数组理论基础.md
+  - Archive: archive/README.md
+  - Diagrams: assets/diagrams/README.md
+
+exclude_docs: |
+  .gitignore
+  .github/**
+  scripts/**
+  site/**
+  algorithm/**/.vscode/**
+  algorithm/**/test/**

@@ -1,0 +1,10 @@
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+.obsidian/
+.vscode/
+site/
+dist/
+build/
+
