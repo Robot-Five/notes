@@ -5,10 +5,10 @@ site_url: ""
 theme:
   name: mkdocs
 
-docs_dir: .
+docs_dir: docs
 
 nav:
-  - Home: README.md
+  - Home: index.md
   - Topics:
       - Index: topics/README.md
       - Linux: topics/linux/README.md
